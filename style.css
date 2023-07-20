@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+p {
+    width: 526px;
+}
+h1,
+p {
+    margin-left: 16px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.block {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(45deg, red, blue, green, yellow);
+    width: 520px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+.block1 {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 520px;
+    height: 180px;
+    box-shadow: 0 3px 0 0 red, 0 7px 7px 4px blue, 0 15px 5px 6px green, 0 21px 7px 12px palevioletred, 0 37px 21px 23px yellow, 0 110px 21px 20px aqua
+}
